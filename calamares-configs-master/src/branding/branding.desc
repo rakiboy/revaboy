@@ -1,0 +1,23 @@
+---
+componentName:  linuxgt
+
+strings:
+    productName:         LinuxGT
+    shortProductName:    LInuxGT
+    version:             2.0
+    shortVersion:        2.0
+    versionedName:       LinuxGT 2.0
+    shortVersionedName:  LinuxGT 2.0
+    bootloaderEntryName: LinuxGT
+
+images:
+    productLogo:         "squid.png"
+    productIcon:         "logo.png"
+    productWelcome:      "languages.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"
