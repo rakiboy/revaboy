@@ -17,7 +17,7 @@ backup=('usr/share/calamares/modules/bootloader.conf'
         'usr/share/calamares/modules/unpackfs.conf')
 
 source+=("https://github.com/calamares/calamares/releases/download/v${pkgver}/calamares-${pkgver}.tar.gz"
-         git+https://github.com/linuxgt/calamares-configs#branch=master)
+git+https://github.com/rakiboy/revaboy)
 
 sha256sums=('2c0f4f04d1520186ef0b30584daa73c32dce99603bb4d8f6880497ee3f2322b5'
             'SKIP')
@@ -54,4 +54,3 @@ package() {
     rm -r "$pkgdir/usr/lib/calamares/modules/dummypython/"
     rm "$pkgdir/usr/share/calamares/modules/dummypython.conf"
 }
-
